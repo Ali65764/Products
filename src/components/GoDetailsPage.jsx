@@ -30,7 +30,7 @@ function GoDetailsPage() {
     <>
       <NavBar />
       <div className="max-w-lg bg-white mx-auto rounded-xl mt-5 md:mt-20 ">
-        <img className='w-full h-64 object-cover object-center' src={state.singleData.images} alt={state.singleData.title} />
+        <img className='w-full h-64 object-cover object-center' src={state.singleData.images[0]} alt={state.singleData.title} />
         <div className='px-4 py-2'>
         <p className='font-bold  text-2xl mt-4 '>{state.singleData.title}</p>
         <p className='text-gray-700 mt-4 '>{state.singleData.description}</p>

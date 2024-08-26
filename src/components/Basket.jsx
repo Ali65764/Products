@@ -35,7 +35,7 @@ export default function Basket() {
             state.basket.map((product, index) => (
               <div key={index} className="bg-purple-100 p-2 rounded-md">
                 <p className='font-bold text-[18px]'>{product.title}</p>
-                <img className='w-[290px] h-[290px]' src={product.images} alt={product.title} />
+                <img className='w-[290px] h-[290px]' src={product.images[0]} alt={product.title} />
                 <p className='text-gray-600 font-bold'>{product.description?.slice(0, 30)}</p>
                 <p className='text-cyan-600 font-bold mt-2'>${product.price}</p>
                 <p className='text-gray-600 font-bold mt-2'>Brand: {product.brand}</p>
