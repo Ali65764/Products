@@ -58,7 +58,7 @@ function Home() {
           </select>
         </div>
         <div>
-          <button className='bg-purple-200 py-1 px-5 rounded'>Reset</button>
+          <button className='bg-purple-200 py-1 px-5 rounded' onClick={handleReset}>Reset</button>
         </div>
       </div>
 
